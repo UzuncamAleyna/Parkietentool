@@ -1,0 +1,133 @@
+.container-box{
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.products-title{
+    width: 100%;
+    height: 10%;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1%;
+    color: black;
+}
+
+.article-title{
+    width: 100%;
+    height: 20%;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 1%;
+}
+
+.article-text{
+    width: 100%;
+    height: 20%;
+    font-size: 1em;
+    color: black;
+}
+
+.articles-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem; 
+}
+
+.article-section {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.text-border{
+    border-radius: 10px;
+    padding: 4.9%;
+    margin-bottom: 1%;
+    box-shadow: 0 0 10px rgba(255, 94, 0, 0.5);
+    border: 1px solid #ddd;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+}
+
+.image-left {
+    box-shadow: 0 0 10px rgba(255, 94, 0, 0.5);
+    border: 1px solid #ddd;
+    width: 20%;
+    float: left;
+    border-radius: 10px;
+}
+
+.image-right {
+    box-shadow: 0 0 10px rgba(255, 94, 0, 0.5);
+    border: 1px solid #ddd;
+    width: 20%;
+    float: right;
+    border-radius: 10px;
+}
+
+
+.home-img {
+    background: url("https://avonturiashop.nl/img/cms/CITES%20en%20Ringplicht%20Parkieten%20en%20Papegaaien.jpg");
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 25px -18px rgba(87,87,87,1), 1px 1px 20px -10px rgba(87,87,87,0.50);
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-out;
+    margin-bottom: 5%;
+}
+
+.home-img h2 {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 4px 3px 3px #e06624;
+}
+
+.home-img:hover {
+    background-size: 130%;
+    transition: 0.3s ease-in;
+}
+
+.home-img a {
+    background-color: #e06624;
+    color: #FFFFFF;
+    padding: 1% 2%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px rgba(87,87,87,0.50);
+}
+
+.home-img a:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #e06624;
+    border: 1px solid #e06624;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #f3f4f6;
+}
+
+.min-h-screen {
+    min-height: 0vh;
+}

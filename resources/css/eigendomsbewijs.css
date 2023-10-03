@@ -1,0 +1,103 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-link-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1% 2%;
+}
+
+#terug-link{
+    text-decoration: none;
+    color: black;
+}
+
+#terug-link:hover{
+    color: #e06624;
+}
+
+#pdf-button{
+    background-color: #e06624;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#pdf-button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #e06624;
+    border: 1px solid #e06624;
+}
+
+#logo{
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+
+.eigendomsbewijs-title{
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.flex-userinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4% 10%;
+}
+
+#name-style{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#userinfo-nr{
+    font-weight: bold;
+
+}
+
+.table-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 1%;
+    text-align: left;
+}
+
+.table td {
+    width: 15%;
+
+}
+
+.table th{
+    padding-bottom: 4%;
+}
+
+.text-under{
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    margin-top: 30%;
+}
